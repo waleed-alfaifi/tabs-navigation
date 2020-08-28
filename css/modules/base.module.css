@@ -1,0 +1,63 @@
+:root {
+  --white-color: #fcfcfc;
+  --body-background-color: #f7f8fc;
+
+  /* Apps labels */
+  --app-label-color: #4a4a4a;
+  --app-label-color-active: #3273d4;
+  --app-label-background: #dbdbdb3b;
+  --app-label-background-active: rgba(45, 169, 214, 0.9);
+
+  --alternative-app-label-color: var(--white-color);
+  --alternative-app-label-background: rgba(45, 169, 214, 0.7);
+  --alternative-app-label-background-active: rgba(45, 169, 214, 0.9);
+
+  /* App card */
+  --app-card-color: #272727;
+  --app-card-background-color: #ffffff;
+  --app-card-shadow-color: #e9ecf9;
+
+  /* Alternative app card design */
+  /* 
+  --app-card-color: var(--white-color);
+  --app-card-background-color: #2d8fd6;
+  --app-card-shadow-color: rgba(0, 0, 0, 0.2); 
+  */
+
+  /* Animations */
+
+  --offset-value: 5rem;
+
+  /* These are different animations you can use */
+
+  /* --animation-name: fade-in;
+  --animation-duration: 1s; */
+
+  --animation-name: slide-down, fade-in;
+  --animation-duration: 0.5s, 1s;
+
+  /* --animation-name: slide-up, fade-in;
+  --animation-duration: 0.5s, 1s; */
+
+  /* --animation-name: slide-right, fade-in;
+  --animation-duration: 0.5s, 1s; */
+
+  /* --animation-name: slide-left, fade-in;
+  --animation-duration: 0.5s, 1s; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--body-background-color);
+}
